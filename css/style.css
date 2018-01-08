@@ -61,7 +61,7 @@ body {
     margin-bottom: 80px;
     color: rgba(255, 255, 255, 0.05);
     font-size: 52px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 49px;
     text-align: center; }
   .sect ul {
@@ -105,7 +105,7 @@ header.pc {
   /*logo*/
   /*导航*/ }
   header.pc.fixed {
-    box-shadow: 0 8px 16px 0 #0C154e;
+    box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
     background: rgba(23, 30, 67, 0.98); }
   header.pc h1 {
     float: left;
@@ -357,7 +357,7 @@ header.pc {
       box-shadow: 0 2px 8px 0 rgba(19, 24, 51, 0.1);
       border-radius: 2px;
       padding: 49px 16px 50px;
-      background: rgba(255, 255, 255, 0.1); }
+      background: #212858; }
     #sect5-pc.pc .content .mCSB_horizontal.mCSB_inside > .mCSB_container {
       margin-bottom: 52px !important; }
     #sect5-pc.pc .content .mCSB_scrollTools.mCSB_scrollTools_horizontal {

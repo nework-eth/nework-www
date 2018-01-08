@@ -61,7 +61,7 @@ $(function() {
 	function animate() {
 		var scrollTop = $(window).scrollTop();
 		animateEles.each(function(i, ele) {
-			if ((scrollTop + $(window).height()) > ($(ele).offset().top + $(ele).height())) {
+			if ((scrollTop + $(window).height()) > ($(ele).offset().top + $(ele).height()/5)) {
 				$(ele).addClass('animate');
 			}
 		});
