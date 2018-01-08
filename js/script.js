@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
 
 	//  锚点跳转
 	$(document).on('click', 'header a', function() {
@@ -68,18 +68,24 @@ $(function() {
 	}
 	animate();
 
-	$(window).on('scroll', function() {
-		var scrollTop = $(window).scrollTop();
-		//	设置页首样式
-		if (scrollTop) {
-			$('header').addClass('fixed');
-		} else {
-			$('header').removeClass('fixed');
+	var scrollTimer = 0;
+	$(window).scroll(function() {
+		if (!scrollTimer) {
+			scrollTimer = setTimeout(function() {
+				var scrollTop = $(window).scrollTop();
+				//	设置页首样式
+				if (scrollTop) {
+					$('header').addClass('fixed');
+				} else {
+					$('header').removeClass('fixed');
+				}
+				animate();
+				scrollTimer = 0;
+			}, 100);
 		}
-		animate();
-	});
+	}).trigger('scroll');
 
-	//	设置第五部分 第七部分
+	//	设置第五部分 第六部分
 	$(window).on('load', function() {
 		setSection5('#sect5-pc .content.cn');
 		setSection6();
