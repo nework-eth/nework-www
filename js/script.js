@@ -68,22 +68,16 @@
 	}
 	animate();
 
-	var scrollTimer = 0;
-	$(window).scroll(function() {
-		if (!scrollTimer) {
-			scrollTimer = setTimeout(function() {
-				var scrollTop = $(window).scrollTop();
-				//	设置页首样式
-				if (scrollTop) {
-					$('header').addClass('fixed');
-				} else {
-					$('header').removeClass('fixed');
-				}
-				animate();
-				scrollTimer = 0;
-			}, 150);
+	$(window).on('scroll', function() {
+		var scrollTop = $(window).scrollTop();
+		//	设置页首样式
+		if (scrollTop) {
+			$('header').addClass('fixed');
+		} else {
+			$('header').removeClass('fixed');
 		}
-	}).trigger('scroll');
+		animate();
+	});
 
 	//	设置第五部分 第六部分
 	$(window).on('load', function() {
