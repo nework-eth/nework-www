@@ -841,6 +841,8 @@ footer {
       float: none; }
       footer .contact a {
         margin: 18px 30px 15px 0; }
+      footer .contact a:last-child {
+        margin-right: 0; }
     footer p {
       padding-top: 15px;
       padding-bottom: 0; }

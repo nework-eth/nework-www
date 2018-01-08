@@ -125,7 +125,7 @@ header{
 		z-index: 1000;
 		width: 100%;
 		&.fixed{
-			box-shadow: 0 8px 16px 0 rgba(5, 13, 69, 0.5);
+    		box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
 			background: rgba(23, 30, 67, .98);
 		}
 		/*logo*/
@@ -1017,6 +1017,9 @@ footer{
 			float: none;
 			a{
 				margin: 18px 30px 15px 0;
+			}
+			a:last-child{
+				margin-right: 0;
 			}
 		}
 		/*版权 网址*/
