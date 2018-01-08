@@ -81,7 +81,7 @@
 				}
 				animate();
 				scrollTimer = 0;
-			}, 100);
+			}, 150);
 		}
 	}).trigger('scroll');
 
