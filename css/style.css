@@ -236,11 +236,11 @@ header.pc {
       -webkit-transition: -webkit-transform .5s ease 1.2s, opacity .5s ease 1.2s;
       transition: transform .5s ease 1.2s, opacity .5s ease 1.2s; }
     #sect2 .pic.animate img:nth-of-type(3) {
-      -webkit-transition: -webkit-transform .5s ease .75s, opacity .5s ease .75s;
-      transition: transform .5s ease .75s, opacity .5s ease .75s; }
-    #sect2 .pic.animate img:nth-of-type(4) {
       -webkit-transition: -webkit-transform .5s ease 1s, opacity .5s ease 1s;
       transition: transform 0.5s ease 1s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 1s; }
+    #sect2 .pic.animate img:nth-of-type(4) {
+      -webkit-transition: -webkit-transform .5s ease .75s, opacity .5s ease .75s;
+      transition: transform .5s ease .75s, opacity .5s ease .75s; }
   #sect2 p {
     margin: 80px 130px 0;
     color: #fff;
