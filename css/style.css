@@ -11,10 +11,11 @@ a {
   text-decoration: none; }
 
 body {
-  overflow-x: hidden;
   font-size: 14px;
-  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-  background: #131940; }
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, WenQuanYi Micro Hei, Arial, sans-serif;
+  background: #131940;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /*动画*/
 /*通用类名*/
@@ -512,6 +513,9 @@ footer {
   transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; }
 
 @media screen and (max-width: 1059px) {
+  body {
+    min-width: 320px; }
+
   .pc {
     display: none; }
 
@@ -647,6 +651,7 @@ footer {
         text-align: left; }
       #sect1 .content p {
         margin: 0 40px 50px;
+        width: auto;
         font-size: 32px;
         line-height: 45px; }
         #sect1 .content p span {
