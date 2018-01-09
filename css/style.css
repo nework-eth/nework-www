@@ -105,7 +105,7 @@ header.pc {
   /*logo*/
   /*导航*/ }
   header.pc.fixed {
-      box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
+    box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
       background: rgba(23, 30, 67, .98); }
   header.pc h1 {
     float: left;
@@ -417,15 +417,13 @@ header.pc {
         font-size: 14px; }
     #sect7 li p {
       height: 180px; }
-  #sect7 li:nth-child(1) h4:after,
-  #sect7 li:nth-child(2) h4:after {
+  #sect7 li.adviser h4:after {
     content: '顾问'; }
-  #sect7 li:nth-child(1) h4.en:after,
-  #sect7 li:nth-child(2) h4.en:after {
+  #sect7 li.adviser h4.en:after {
     content: 'Adviser'; }
-  #sect7 li:last-child h4:after {
+  #sect7 li.investor h4:after {
     content: '投资人'; }
-  #sect7 li:last-child h4.en:after {
+  #sect7 li.investor h4.en:after {
     content: 'Investor'; }
 
 /*页尾*/
