@@ -525,8 +525,7 @@ header{
 			}
 		}
 	}
-	li:nth-child(3),
-	li:nth-child(4){
+	li:last-child{
 		h4{
 			&:after{
 				content: '投资人';
@@ -535,7 +534,7 @@ header{
 				content: 'Investor';
 			}
 		}
-	}				
+	}
 }
 /*页尾*/
 footer{
