@@ -211,9 +211,10 @@ header{
 			line-height: 52px;
 			letter-spacing: 5px;
 			text-indent: 5px;
-			background-image: -webkit-linear-gradient(to bottom, #fff, #a2a4b4);
-			background-image: -moz-linear-gradient(to bottom, #fff, #a2a4b4);
-			background-image: linear-gradient(to bottom, #fff, #a2a4b4);
+			background: #fff;
+			// background-image: -webkit-linear-gradient(to bottom, #fff, #a2a4b4);
+			// background-image: -moz-linear-gradient(to bottom, #fff, #a2a4b4);
+			// background-image: linear-gradient(to bottom, #fff, #a2a4b4);
 		}
 	}
 	.content.en{
@@ -294,10 +295,11 @@ header{
 	}
 	/*描述*/
 	p{
-		margin: 80px 130px 0;
+		/*margin: 80px 130px 0;*/
+		margin: 80px 200px 0;
 		color: #fff;
 		font-size: 16px;
-		line-height: 22px;
+		line-height: 26px;
 		&.en{
 			text-align: center;
 		}

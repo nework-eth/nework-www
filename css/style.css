@@ -105,8 +105,8 @@ header.pc {
   /*logo*/
   /*导航*/ }
   header.pc.fixed {
-    box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
-    background: rgba(23, 30, 67, 0.98); }
+      box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
+      background: rgba(23, 30, 67, .98); }
   header.pc h1 {
     float: left;
     margin-top: 22px;
@@ -176,9 +176,7 @@ header.pc {
       line-height: 52px;
       letter-spacing: 5px;
       text-indent: 5px;
-      background-image: -webkit-linear-gradient(to bottom, #fff, #a2a4b4);
-      background-image: -moz-linear-gradient(to bottom, #fff, #a2a4b4);
-      background-image: linear-gradient(to bottom, #fff, #a2a4b4); }
+      background: #fff; }
   #sect1 .content.en {
     /*描述*/
     /*白皮书*/ }
@@ -242,10 +240,11 @@ header.pc {
       -webkit-transition: -webkit-transform .5s ease .75s, opacity .5s ease .75s;
       transition: transform .5s ease .75s, opacity .5s ease .75s; }
   #sect2 p {
-    margin: 80px 130px 0;
+    /*margin: 80px 130px 0;*/
+    margin: 80px 200px 0;
     color: #fff;
     font-size: 16px;
-    line-height: 22px; }
+    line-height: 26px; }
     #sect2 p.en {
       text-align: center; }
 
