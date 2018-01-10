@@ -449,6 +449,8 @@ footer {
       line-height: 20px; }
     footer .contact a.phone {
       background: url(../images/icon-phone.png) no-repeat left center/auto 100%; }
+    footer .contact a.t-me {
+      background: url(../images/icon-t-me.png) no-repeat left center/auto 100%; }
     footer .contact a.email {
       background: url(../images/icon-email.png) no-repeat left center/auto 100%; }
   footer p {
