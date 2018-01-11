@@ -138,7 +138,7 @@ header.pc {
       header.pc nav .lang.icon-en {
         background: url(../images/icon-en.png) no-repeat center/100%; }
 
-/*第一部分*/
+/*第一部分 白皮书*/
 #sect1 {
   padding-bottom: 0;
   /*内容*/ }
@@ -185,7 +185,7 @@ header.pc {
     #sect1 .content.en a {
       letter-spacing: 0; }
 
-/*第二部分*/
+/*第二部分 项目简介*/
 #sect2 {
   /*图片*/
   /*描述*/ }
@@ -248,7 +248,7 @@ header.pc {
     #sect2 p.en {
       text-align: center; }
 
-/*第三部分*/
+/*第三部分 产品方案*/
 #sect3 {
   /*内容列表*/ }
   #sect3 li {
@@ -273,7 +273,7 @@ header.pc {
   #sect3 li:nth-child(6) {
     margin-bottom: 0; }
 
-/*第四部分*/
+/*第四部分 奖励机制*/
 #sect4 {
   /*内容列表*/ }
   #sect4 ul {
@@ -301,7 +301,7 @@ header.pc {
       #sect4 ul.en li p {
         text-align: center; }
 
-/*第五部分*/
+/*第五部分 发展历程与规划*/
 #sect5-pc {
   /*内容*/ }
   #sect5-pc.pc .content {
@@ -373,7 +373,7 @@ header.pc {
       #sect5-pc.pc .content.en .mCSB_horizontal.mCSB_inside > .mCSB_container {
         margin-bottom: 96px !important; }
 
-/*第六部分*/
+/*第六部分 团队介绍*/
 #sect6-pc {
   /*内容列表*/ }
   #sect6-pc.pc li {
@@ -396,7 +396,7 @@ header.pc {
   #sect6-pc li:nth-child(7) {
     margin-bottom: 0; }
 
-/*第七部分*/
+/*第七部分 投资与顾问*/
 #sect7 {
   /*内容列表*/ }
   #sect7 li {
@@ -422,9 +422,17 @@ header.pc {
   #sect7 li.adviser h4.en:after {
     content: 'Adviser'; }
   #sect7 li.investor h4:after {
-    content: '投资人'; }
+    content: '投资机构'; }
   #sect7 li.investor h4.en:after {
-    content: 'Investor'; }
+    content: 'Investment institution'; }
+
+/*第八部分 合作伙伴*/
+#sect8 {
+  text-align: center; }
+  #sect8 img {
+    margin: 0 8px;
+    border-radius: 2px;
+    width: 250px; }
 
 /*页尾*/
 footer {
@@ -483,7 +491,8 @@ footer {
 #sect5-mobile li,
 #sect6-pc p,
 #sect6-mobile p,
-#sect7 p {
+#sect7 p,
+#sect8 img {
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
   opacity: 0; }
@@ -502,7 +511,8 @@ footer {
 #sect5-mobile li.animate,
 #sect6-pc p.animate,
 #sect6-mobile p.animate,
-#sect7 p.animate {
+#sect7 p.animate,
+#sect8 img.animate {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
@@ -629,7 +639,7 @@ footer {
           header.mobile .nav-panel nav a.active {
             color: #fff; }
 
-  /*第一部分*/
+  /*第一部分 白皮书*/
   #sect1 {
     /*内容*/ }
     #sect1 .content {
@@ -657,7 +667,7 @@ footer {
         margin: 0 0 0 40px;
         text-align: center; }
 
-  /*第二部分*/
+  /*第二部分 项目简介*/
   #sect2 {
     /*图片*/
     /*描述*/ }
@@ -685,7 +695,7 @@ footer {
       font-size: 14px;
       line-height: 20px; }
 
-  /*第三部分*/
+  /*第三部分 产品方案*/
   #sect3 {
     /*内容列表*/ }
     #sect3 li {
@@ -707,7 +717,7 @@ footer {
     #sect3 li:nth-child(6) {
       margin-bottom: 40px; }
 
-  /*第四部分*/
+  /*第四部分 奖励机制*/
   #sect4 {
     /*内容列表*/ }
     #sect4 ul li {
@@ -726,7 +736,7 @@ footer {
     #sect4 ul.en li {
       height: auto !important; }
 
-  /*第五部分*/
+  /*第五部分 发展历程与规划*/
   #sect5-mobile {
     /*内容*/ }
     #sect5-mobile.mobile .content ul {
@@ -774,7 +784,7 @@ footer {
       #sect5-mobile.mobile .content ul li:last-child {
         border-color: transparent; }
 
-  /*第六部分*/
+  /*第六部分 团队介绍*/
   #sect6-mobile {
     /*内容列表*/ }
     #sect6-mobile.mobile ul {
@@ -805,7 +815,7 @@ footer {
     #sect6-mobile li:nth-child(6) {
       margin: 0 15px 0 0 !important; }
 
-  /*第七部分*/
+  /*第七部分 投资与顾问*/
   #sect7 {
     /*内容列表*/ }
     #sect7 li {
@@ -822,6 +832,10 @@ footer {
         margin: 20px 0 10px; }
       #sect7 li p {
         height: auto; }
+
+  /*第八部分 合作伙伴*/
+  #sect8 img {
+    width: calc((100% - 100px)/2); }
 
   /*页尾*/
   footer {
