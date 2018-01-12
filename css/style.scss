@@ -514,6 +514,26 @@ header{
 			height: 180px;
 		}
 	}
+	li.mechanism{
+		h4{
+			&:after{
+				content: '投资机构';
+			}
+			&.en:after{
+				content: 'Investment institution';
+			}
+		}
+	}
+	li.investor{
+		h4{
+			&:after{
+				content: '投资人';
+			}
+			&.en:after{
+				content: 'Investor';
+			}
+		}
+	}
 	li.adviser{
 		h4{
 			&:after{
@@ -521,16 +541,6 @@ header{
 			}
 			&.en:after{
 				content: 'Adviser';
-			}
-		}
-	}
-	li.investor{
-		h4{
-			&:after{
-				content: '投资机构';
-			}
-			&.en:after{
-				content: 'Investment institution';
 			}
 		}
 	}
