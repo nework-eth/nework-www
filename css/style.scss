@@ -545,13 +545,18 @@ header{
 		}
 	}
 }
-/*第八部分 合作伙伴*/
-#sect8{
-	text-align: center;
+/*第八部分 投资机构*/
+/*第九部分 投资机构*/
+#sect8,
+#sect9{
 	img{
-		margin: 0 8px;
+		margin-right: 16px;
+		margin-bottom: 20px;
 		border-radius: 2px;
-		width: 250px;
+		width: calc((100% - 40px)/3);
+		&:nth-of-type(3n){
+			margin-right: 0;
+		}
 	}
 }
 /*页尾*/
@@ -1026,11 +1031,19 @@ footer{
 			}
 		}
 	}
-	/*第八部分 合作伙伴*/
-	#sect8{
+	/*第八部分 投资机构*/
+	/*第九部分 合作伙伴*/
+	#sect8,
+	#sect9{
 		img{
+			margin-right: 0;
 			width: calc((100% - 100px)/2);
+			&:nth-of-type(odd){
+				margin-left: 40px;
+				margin-right: 16px;
+			}
 		}
+
 	}
 	/*页尾*/
 	footer{

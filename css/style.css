@@ -105,8 +105,8 @@ header.pc {
   /*logo*/
   /*导航*/ }
   header.pc.fixed {
-    box-shadow:0 8px 16px rgba(5, 13, 69, 0.5);
-      background: rgba(23, 30, 67, .98); }
+    box-shadow: 0 8px 16px rgba(5, 13, 69, 0.5);
+    background: rgba(23, 30, 67, 0.98); }
   header.pc h1 {
     float: left;
     margin-top: 22px;
@@ -430,13 +430,17 @@ header.pc {
   #sect7 li.adviser h4.en:after {
     content: 'Adviser'; }
 
-/*第八部分 合作伙伴*/
-#sect8 {
-  text-align: center; }
-  #sect8 img {
-    margin: 0 8px;
-    border-radius: 2px;
-    width: 250px; }
+/*第八部分 投资机构*/
+/*第九部分 投资机构*/
+#sect8 img,
+#sect9 img {
+  margin-right: 16px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  width: calc((100% - 40px)/3); }
+  #sect8 img:nth-of-type(3n),
+  #sect9 img:nth-of-type(3n) {
+    margin-right: 0; }
 
 /*页尾*/
 footer {
@@ -837,9 +841,16 @@ footer {
       #sect7 li p {
         height: auto; }
 
-  /*第八部分 合作伙伴*/
-  #sect8 img {
+  /*第八部分 投资机构*/
+  /*第九部分 合作伙伴*/
+  #sect8 img,
+  #sect9 img {
+    margin-right: 0;
     width: calc((100% - 100px)/2); }
+    #sect8 img:nth-of-type(odd),
+    #sect9 img:nth-of-type(odd) {
+      margin-left: 40px;
+      margin-right: 16px; }
 
   /*页尾*/
   footer {
