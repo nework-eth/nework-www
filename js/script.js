@@ -56,7 +56,7 @@
 
 	//	滚动监听，添加动画
 	//	动画元素
-	var animateEles = $('.sect h2, .sect h3, .sect li img, .sect li h4, #sect1 p, #sect1 a, #sect2 .pic, #sect2 p, #sect3 p, #sect4 li,#sect4 p, #sect5-pc .content, #sect5-mobile li, #sect6-pc p, #sect6-mobile p, #sect7 p,#sect8 img');
+	var animateEles = $('.sect h2, .sect h3, .sect li img, .sect li h4, #sect1 p, #sect1 a, #sect2 .pic, #sect2 p, #sect3 p, #sect4 li,#sect4 p, #sect5-pc .content, #sect5-mobile li, #sect6-pc p, #sect6-mobile p, #sect7 p, #sect8 img, #sect9 img');
 
 	function animate() {
 		var scrollTop = $(window).scrollTop();

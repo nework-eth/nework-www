@@ -500,7 +500,8 @@ footer {
 #sect6-pc p,
 #sect6-mobile p,
 #sect7 p,
-#sect8 img {
+#sect8 img,
+#sect9 img {
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
   opacity: 0; }
@@ -520,7 +521,8 @@ footer {
 #sect6-pc p.animate,
 #sect6-mobile p.animate,
 #sect7 p.animate,
-#sect8 img.animate {
+#sect8 img.animate,
+#sect9 img.animate {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;

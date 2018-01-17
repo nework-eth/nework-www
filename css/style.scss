@@ -627,7 +627,8 @@ footer{
 #sect6-pc p,
 #sect6-mobile p,
 #sect7 p,
-#sect8 img{
+#sect8 img,
+#sect9 img{
 	@include animateBefore();
 }
 .sect h2,
@@ -645,7 +646,8 @@ footer{
 #sect6-pc p,
 #sect6-mobile p,
 #sect7 p,
-#sect8 img{
+#sect8 img,
+#sect9 img{
 	&.animate{
 		@include animateAfter();
 	}
